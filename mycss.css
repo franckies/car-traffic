@@ -1,0 +1,107 @@
+
+* {
+	font-family: Verdana, sans-serif;
+	font-weight: 400;
+	font-style:normal;
+	box-sizing: border-box;
+}
+
+
+ /*body definition*/
+body {background-color:rgba(153,203,255);
+	text-align: center;
+}
+
+canvas{
+  display: none;
+    border:1px solid #d3d3d3;
+
+}
+legend, header{
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+  text-transform: uppercase;
+}
+header{
+	padding:13px;
+	height:60px;
+	text-align: center;
+	font-size: 30px;
+	background-image: url("images/backgroudn.jpg")
+}
+div.transbox {
+  background-color: #ffffff;
+  border: 1px solid black;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+p{
+	text-indent: 50px;
+  letter-spacing: 3px;
+}
+.demo{
+	background-image:url('images/demo.png');
+
+}
+.c1{
+
+    background-image:url('images/incrocio1.png');
+}
+.c2{
+    background-image:url('images/incrocio2.png');
+}
+.c3{
+  	background-image:url('images/incrocio3.png');
+}
+.c4{
+		background-image:url('images/incrocio4.png');
+}
+.c5{
+		background-image:url('images/incrocio5.png');
+}
+.c6{
+		background:url('images/incrocio6.png');
+}
+.c7{
+		background-image:url('images/incrocio7.png');
+}
+.c8{
+		background-image:url('images/incrocio8.png');
+}
+.c9{
+		background-image:url('images/incrocio9.png');
+}
+.c10{
+		background-image:url('images/incrocio10.png');
+}
+
+.pagination a {
+  color: black;
+
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+/*FOOTER STYLING*/
+footer {
+	padding: 30px 16px;
+  width: 100%;
+  background-color:rgb(58,58,58);
+  color:white;
+  font-weight: normal;
+}
+
+.lft{
+  font-size:100%;
+  float:left;
+  text-align: left;
+  margin-top: -8px;
+}
